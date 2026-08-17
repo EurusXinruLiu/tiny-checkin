@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "小小打卡",
+    "slug": "tiny-checkin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.local.tinycheckin"
+    },
+    "android": {
+      "package": "com.local.tinycheckin",
+      "adaptiveIcon": {
+        "backgroundColor": "#8F5BD7",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png",
+      "name": "小小打卡",
+      "shortName": "小小打卡",
+      "lang": "zh-CN",
+      "scope": ".",
+      "themeColor": "#8F5BD7",
+      "description": "记录健身、学习和生活习惯的离线月历打卡应用",
+      "display": "standalone",
+      "startUrl": ".",
+      "orientation": "portrait",
+      "backgroundColor": "#FBF7FC",
+      "barStyle": "default",
+      "preferRelatedApplications": false
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 220,
+          "resizeMode": "contain",
+          "backgroundColor": "#FBF7FC"
+        }
+      ]
+    ]
+  }
+}
